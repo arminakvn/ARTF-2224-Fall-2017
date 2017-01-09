@@ -1,0 +1,162 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-size:40px;
+    height:100%;
+    width:100%;
+    position: relative;
+    background-color:#e2e2e2;
+    font-family: 'Roboto';
+
+}
+
+@media (max-width: 767px) {  /*Small*/
+    body { 
+         font-size:35px;
+    } 
+.a-r{
+/*    text-align: right;*/
+}
+
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+.title{
+    padding-bottom:50px;
+}
+
+h1{
+    margin-top:0px;
+    font-weight:100;
+    font-size:1em;
+    line-height:1.1em;
+    letter-spacing:-.04em;
+}
+h2{
+    margin-top:0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    font-size:.8em;
+    line-height:1.1em;
+}
+
+h3{
+
+    margin-top:0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size:.6em;
+    line-height:1.3em;
+}
+p{
+    font-weight:500;
+    font-family: "chaparral-pro-caption";
+    font-weight:100;
+    font-size:.5em;
+    line-height:1.4em;
+}
+
+.sm{
+    font-family: "chaparral-pro-caption";
+    font-weight:100;
+    font-size:.42em;
+    line-height:1.4em;
+}
+
+h3, h4, h5, h6 {
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+
+}
+h4{
+
+    font-family: 'Roboto', sans-serif;
+/*    text-transform: uppercase;*/
+    font-weight:100;
+    font-size:.4em;
+    line-height:1.4em;
+}
+h5{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size:.4em;
+    line-height:1.4em;
+}
+li{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size:.35em;
+    line-height:1.5em;
+    list-style:none;
+}
+
+li:focus{
+    border-bottom: 1px solid black;
+}
+
+span{
+    font-style: italic;
+}
+
+strong{
+    font-weight:600;
+}
+
+a{
+    color:#006fb9;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+a:focus {
+    color:#006fb9;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+a:hover {
+    color:#006fb9;
+    opacity:.8;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+ .img-responsive {
+    margin: auto;
+}
+
+.a-r{
+    text-align: right;
+}
+.sm-caps{
+    font-variant: small-caps;
+    color:#006fb9;
+    padding-bottom:10px;
+}
+
+.pad-bottom{
+padding-bottom:50px;
+}
+
+.pad-bottom2{
+padding-bottom:15px;
+}
+
+.navbar-default {
+    background-color: #e2e2e2;
+    border-color: #e2e2e2;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+border-bottom:1px solid #006fb9;
+font-weight:300;
+color:#000;
+}
+
+.active{
+border-bottom:1px solid #006fb9;
+color:#fff;
+}
