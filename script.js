@@ -1,6 +1,6 @@
  $( window ).load(function() {
      $(".page").hide(); 
-     $("#schedule-pg").show();
+     $("#syllabus-pg").show();
    });
 
 
