@@ -28,3 +28,32 @@ $(document).ready(function(){
     	$(".page").hide(); 
     	$("#assignments-pg").show();
 })});
+
+$(document).ready(function(){
+    $("#resources-btn").on('click', function(){
+        $(".page").hide(); 
+        $("#resources-pg").show();
+})});
+
+
+
+// var taskInput = document.getElementById('newEntry');
+// var addTaskButton = document.getElementById('addEntryButton');
+// var incompleteTasks = document.getElementById('listEntry');
+
+
+// var addTask = function () {
+//     var text = taskInput.value;
+//     var li = document.createElement('li');
+//     li.innerHTML = text + " " + "<button class='delete'>X</button>";
+//     incompleteTasks.appendChild(li);
+//     taskInput.value = "";
+
+// }
+
+
+    
+
+
+
+// addTaskButton.onclick = addTask;
